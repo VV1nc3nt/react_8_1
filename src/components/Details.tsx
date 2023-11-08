@@ -44,7 +44,7 @@ export default function Details(props: Props) {
 
   const renderDetails = () => {
     return <div key={ details?.id } className="details">
-            { details?.avatar ? <img src={ details?.avatar } alt="" /> : 'Loading...' }
+            <img src={ details?.avatar } alt="" />
             <p>{ details?.name }</p>
             <p>City: { details?.details.city }</p>
             <p>Company: { details?.details.company }</p>
