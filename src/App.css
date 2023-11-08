@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.user-btn {
+  width: 200px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.app {
+  display: flex;
+}
+
+.users {
+  margin-right: 48px;
+}
+
+.details {
+  width: 300px;
+}
